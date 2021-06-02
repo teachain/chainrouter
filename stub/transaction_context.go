@@ -1,7 +1,6 @@
 package stub
 
-type TransactionContext struct{
+type TransactionContext struct {
 	Account Account
-    Path Path
-
+	Path    Path
 }

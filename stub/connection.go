@@ -12,5 +12,3 @@ type Connection interface {
 	SetConnectionEventHandler(eventHandler ConnectionEventHandler)
 	GetProperties() map[string]string
 }
-
-

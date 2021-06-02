@@ -1,14 +1,13 @@
 package stub
 
 type StubFactory interface {
-
 	NewDriver() Driver
 
-    NewConnection(path string) Connection
+	NewConnection(path string) Connection
 
-	NewAccount( properties map[string]interface{}) Account
+	NewAccount(properties map[string]interface{}) Account
 
-    GenerateAccount(path string ,  args[]string)
+	GenerateAccount(path string, args []string)
 
-    GenerateConnection( path string, args []string)
+	GenerateConnection(path string, args []string)
 }

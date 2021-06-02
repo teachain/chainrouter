@@ -1,9 +1,9 @@
 package stub
 
-type Account interface{
+type Account interface {
 	GetName() string
 	GetType() string
 	GetIdentity() string
 	GetKeyID() int
-	IsDefault()bool
+	IsDefault() bool
 }

@@ -17,7 +17,6 @@ type GetTransactionCallback interface {
 	onResponse(err error, transaction Transaction)
 }
 type Driver interface {
-
 	DecodeTransactionRequest(request Request) (bool, TransactionRequest)
 
 	GetResources(connection Connection) []ResourceInfo

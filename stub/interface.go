@@ -1,13 +1,15 @@
 package stub
 
 import (
-	"net/rpc"
 	"github.com/hashicorp/go-plugin"
+	"net/rpc"
 )
 
 type Stub interface {
 	//全部接口
 	Greet() string
+
+	GetResources()[]*ResourceInfo
 }
 
 type StubPlugin struct {
