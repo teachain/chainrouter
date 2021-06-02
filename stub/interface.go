@@ -5,8 +5,10 @@ import (
 	"net/rpc"
 )
 
+
+//在这里定义接口
 type Stub interface {
-	//全部接口
+
 	Greet() string
 
 	GetResources()[]*ResourceInfo
